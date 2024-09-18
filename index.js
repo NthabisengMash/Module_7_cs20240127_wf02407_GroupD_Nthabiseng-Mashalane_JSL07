@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
               <h3><strong>${courseName}</strong></h3>
               <p>${personalMessage}🏅</p>
               <img src="/logo.png" alt="Logo" class="certificate-logo">
-              <p>I am thee greatest😸</p>
+              <p>I am thee greatest 😸</p>
           </div>
       `;
 
