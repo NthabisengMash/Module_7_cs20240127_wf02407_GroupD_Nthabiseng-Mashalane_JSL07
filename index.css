@@ -1,5 +1,5 @@
 body {
-    font-family: 'Raleway', serif;
+  font-family: Verdana, Geneva, Tahoma;
   text-align: center;
   background-color: #f0f0f0;
   margin: 0;
@@ -51,15 +51,38 @@ button:hover {
     z-index: 1;
   }
   
-  .modal-content {
-    background-color: #fff;
-    padding: 40px;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    position: relative;
-    border: 3px solid #659f8f;
+.modal-content {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  position: relative;
+  border: 3px solid #659f8f;
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   }
-  
+
+.modal-content .certificate-section {
+  display: block;
+  }
+
+
+.certificate-logo {
+  display: block;
+  margin: 20px auto;
+  max-width: 80%; /* Responsive width */
+  height: auto;
+}
+
+.modal-content .certificate-section h2, 
+.modal-content .certificate-section p, 
+.modal-content .certificate-section h3 {
+  display: block;
+  margin: 10px 0;
+}
 
 .modal-content::before {
   content: "";
@@ -81,7 +104,7 @@ button:hover {
 }
 
 #certificateContent {
-  font-family: 'Raleway', serif;
+  font-family:Arial, Helvetica;
   color: #333;
   padding: 20px;
   background-color: #f9f9f9;
@@ -96,6 +119,7 @@ h1, .modal-content h2, .modal-content p {
 
 .close {
   color: #dc7f5f;
+  cursor: pointer;
 }
 
 /* Adding a fancy border to the certificate content */
